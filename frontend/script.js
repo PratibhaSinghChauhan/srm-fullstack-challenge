@@ -16,7 +16,7 @@ submitBtn.addEventListener("click", async () => {
 
     const parsedData = JSON.parse(input);
 
-    const response = await fetch("http://localhost:3000/bfhl", {
+    const response = await fetch("https://srm-backend-5n30.onrender.com/bfhl", {
 
       method: "POST",
 
